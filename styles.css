@@ -25,3 +25,10 @@ color: var(--background-color);
     border: var(--main-color);
     
 }
+@media (max-width:960px) {
+  .content p {
+        font-size: 40px;
+        line-height: 18px;
+    }
+    
+}
