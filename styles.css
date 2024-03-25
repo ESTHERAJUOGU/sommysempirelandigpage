@@ -48,6 +48,7 @@ color: var(--main-color);
  font-size:24px;
     line-height:18px ;
      font-weight:bold;
+     line-height: 10px;
 }
 .flyer{
     border-radius:30px ;
