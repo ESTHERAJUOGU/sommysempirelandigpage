@@ -5,33 +5,129 @@ p{
     line-height:10px ;
 }
 :root {
-    --main-color:white;
-    --background-color: black;
+    --main-color:rgb(210, 198, 198);
+    --background-color: rgb(50, 46, 46);
     --defailt-font-family:"Poppins", sans-serif;
 }
+nav{
+    padding: 20px;
+}
+nav ul{
+    padding: 0;
+    margin: 0;
+    
+}
+nav li{
+    display: inline;
+   
+    list-style: none;
+    line-height: 40px;
+    margin-left: 15px;
+}
+nav a {
+    text-decoration: none;
+    color: var(--main-color)
+    transition: all 100ms ease-in-out;
+}
+nav a:hover {
+    color:plum;
+}
+nav li .active a{
+    color:var(--main-colorr);
+
+    }
+
 .hero-container{
-background: var(--main-color);
+background: var(--background-color);
 
 }
 
 .hero-container p{
-
-color: var(--background-color);
- font-size:20px;
+ font-family: var(--default-font-family);
+color: var(--main-color);
+ font-size:100px;
     line-height:30px ;
-     font-weight:normal;
+     font-weight:bold;
 }
 .flyer{
+    border-radius:30px ;
+    padding: 5px 10px;
     
 }
 .container{
     border: var(--main-color);
     
 }
+.contact-container{
+    background:var(--background-color) ;
+    padding: 30px 120px;
+    border-radius: 10px;
+}
+.contact-me h2 {
+    color: var(--background-color);
+    font-size: 24px;
+    text-align: center;
+}
+.contact-links a {
+    background: var(--main-color);
+    color: plum;
+    padding: 10px 15px;
+    margin: 0 30px;
+    border-radius: 30%;
+}
+.btn-info { 
+    border-radius: 4px;
+    font-size: 18px;
+    line-height: 23px;
+    
+
+}
+form .review{
+    background:plum ;
+    padding: 50px 130px;
+    margin: 0 20px;
+    border-radius: 17px;
+    border: 1px thick plum;
+}
+ footer {
+        font-size: 80px 0;
+    }
+    footer .contact-box{
+        background: var(--background-color);
+        padding: 30px 120px;
+        border-radius: 10px;
+    }
+    footer .contact-box p{
+        margin: 0;
+    }
+ footer .socail-link a{
+margin: 0 20px;
+color: var(--main-color);
+background: var(--main-color);
+padding: 10px 14px;
+font-size: 18px;
+border-radius: 50%;
+transition: all 100ms ease-in-out;
+  }
+footer .socail-link a:hover{
+    color: plum;
+    background: var(--main-color);
+    }
 @media (max-width:860px) {
   .content p {
         font-size: 15px;
         line-height: 15px;
     }
-    
+    .contact-me h2 {
+        font-size: 26px;
+    }
+    .contact-container{
+        padding: 30px;
+    }
+    form .review  {
+        padding: 100px;
+    }
+    h4{
+        font-size: 26px;
+    }
 }
