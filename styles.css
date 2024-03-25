@@ -45,8 +45,8 @@ background: var(--background-color);
 .hero-container p{
  font-family: var(--default-font-family);
 color: var(--main-color);
- font-size:40px;
-    line-height:7px ;
+ font-size:24px;
+    line-height:18px ;
      font-weight:bold;
 }
 .flyer{
