@@ -91,11 +91,14 @@ color: var(--main-color);
     padding: 10px 15px;
     margin: 0 30px;
     border-radius: 30%;
+    text-decoration: none;
 }
 .btn-info { 
+    border: 1px solid var(--main-color);
     border-radius: 4px;
     font-size: 18px;
-    line-height: 23px;
+    line-height: 25px;
+    text-decoration: none;
     
 
 }
@@ -133,7 +136,7 @@ footer li{
 margin: 0 20px;
 color: var(--main-color);
 background: var(--background-color);
-
+text-decoration: none;
 list-style: none;
 font-size: 18px;
 border-radius: 50%;
