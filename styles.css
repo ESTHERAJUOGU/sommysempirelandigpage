@@ -83,7 +83,7 @@ color: var(--main-color);
     font-size: 24px;
     text-align: center;
 }
-.contact-links a {
+.contact-links li a {
     list-style: none;
     background: var(--main-color);
     color: plum;
