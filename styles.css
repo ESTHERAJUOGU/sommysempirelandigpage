@@ -85,7 +85,7 @@ color: var(--main-color);
 }
 .contact-links li a {
     list-style: none;
-    background: var(--main-color);
+   
     color: plum;
     padding: 10px 15px;
     margin: 0 30px;
