@@ -127,7 +127,7 @@ footer li{
     footer .contact-box{
         background: var(--main-color);
         padding: 0;
-       
+       border-radius: 5px;
     }
     footer .contact-box p{
         margin: 0;
