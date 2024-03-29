@@ -122,7 +122,7 @@ footer li{
 } 
     footer .contact-box{
         background: var(--main-color);
-        padding: ;
+        padding:0 ;
         border-radius: 10px;
     }
     footer .contact-box p{
@@ -143,7 +143,7 @@ footer .socail-link a:hover{
     background: var(--main-color);
     }
 @media (max-width:900px) {
-    .logo{
+    .logo {
 border-radius: 4px;
 padding-inline-start: 
 }
@@ -161,6 +161,10 @@ padding-inline-start:
         padding: 100px;
     }
     h4{
-        font-size: 26px;
+    font-size: 26px;
     }
+footer .contact-box{
+        padding: 30px;
+    }
+
 }
