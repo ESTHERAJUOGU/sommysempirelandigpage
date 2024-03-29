@@ -1,13 +1,27 @@
+body {
+    background: linear-gradient(109.6deg, rgb(36, 45, 57) 11.2%, 
+    rgb(16, 37, 60) 51.2%, rgb(0, 0, 0) 98.6%);
+    font-family: var(--default-font-family);
+}
 p{
     font-family: var(--default-font-family);
     font-weight:bold;
     font-size:20px;
     line-height:10px ;
 }
+ h4{
+        font-size: 28px;
+        color: var(--main-color);
+    }
+
 :root {
     --main-color:rgb(210, 198, 198);
     --background-color: rgb(50, 46, 46);
     --defailt-font-family:"Poppins", sans-serif;
+}
+.logo{
+border-radius: 4px;
+padding-inline-start: 50px 120px ;
 }
 nav{
     padding: 20px;
@@ -107,8 +121,8 @@ footer li{
     margin-left: 15px;
 } 
     footer .contact-box{
-        background: var(--background-color);
-        padding: 30px 120px;
+        background: var(--main-color);
+        padding: ;
         border-radius: 10px;
     }
     footer .contact-box p{
@@ -128,7 +142,11 @@ footer .socail-link a:hover{
     color: plum;
     background: var(--main-color);
     }
-@media (max-width:860px) {
+@media (max-width:900px) {
+    .logo{
+border-radius: 4px;
+padding-inline-start: 
+}
   .content p {
         font-size: 15px;
         line-height: 15px;
